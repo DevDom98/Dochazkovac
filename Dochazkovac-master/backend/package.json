@@ -1,0 +1,36 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.ts",
+        "lint": "eslint src/**/*.ts --fix"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@deepkit/mysql": "^1.0.1-alpha.58",
+        "@deepkit/orm": "^1.0.1-alpha.58",
+        "@deepkit/sql": "^1.0.1-alpha.58",
+        "@deepkit/type": "^1.0.1-alpha.58",
+        "@hapi/hapi": "^20.1.5",
+        "@types/hapi__hapi": "^20.0.9",
+        "@types/luxon": "^2.0.5",
+        "luxon": "^2.0.2",
+        "rxjs": "^7.3.0",
+        "typescript": "^4.4.3"
+    },
+    "devDependencies": {
+        "@types/node": "^16.10.2",
+        "@typescript-eslint/eslint-plugin": "^4.32.0",
+        "@typescript-eslint/parser": "^4.32.0",
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-import-resolver-typescript": "^2.5.0",
+        "eslint-plugin-import": "^2.24.2",
+        "nodemon": "^2.0.13",
+        "ts-jest": "^27.0.5",
+        "ts-node": "^10.2.1"
+    }
+}
